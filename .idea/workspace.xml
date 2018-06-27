@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d837f71-79a9-4f21-ae4f-2b6487989163" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/AspectProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/ProxyChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/ProxyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/chapter3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter3_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/chapter4/aspect/ControllerAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/chapter3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/chapter3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-framework/smart-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-framework/smart-framework.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/chapter3/target/" />
@@ -64,11 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AspectProxy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AspectProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/AspectProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="168">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerAspect.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/chapter4/aspect/ControllerAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,6 +112,8 @@
         <option value="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/ProxyChain.java" />
         <option value="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/ProxyManager.java" />
         <option value="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/AspectProxy.java" />
+        <option value="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/chapter4/aspect/Controller.java" />
+        <option value="$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/chapter4/aspect/ControllerAspect.java" />
       </list>
     </option>
   </component>
@@ -134,8 +141,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="855" />
-    <option name="y" value="90" />
+    <option name="x" value="826" />
+    <option name="y" value="83" />
     <option name="width" value="1097" />
     <option name="height" value="913" />
   </component>
@@ -293,6 +300,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="smart4j" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapters" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="smart4j" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapters" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="smart4j" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -393,15 +423,23 @@
       <workItem from="1529417462041" duration="1052000" />
       <workItem from="1529843508615" duration="68000" />
       <workItem from="1529844141000" duration="739000" />
-      <workItem from="1530106690789" duration="2501000" />
+      <workItem from="1530106690789" duration="3107000" />
     </task>
+    <task id="LOCAL-00001" summary="============搭建代理框架============&#10;1.添加一个Proxy的接口&#10;2.链式代理ProxyChain，添加cglib的maven依赖&#10;3.ProxyManager，提供创建代理对象的方法&#10;4.如何调用ProxyManager呢，有必要实现一个抽象类AspectProxy implements Proxy">
+      <created>1530109396208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530109396209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4360000" />
+    <option name="totallyTimeSpent" value="4966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="855" y="90" width="1097" height="913" extended-state="0" />
+    <frame x="826" y="83" width="1097" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -440,6 +478,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="============搭建代理框架============&#10;1.添加一个Proxy的接口&#10;2.链式代理ProxyChain，添加cglib的maven依赖&#10;3.ProxyManager，提供创建代理对象的方法&#10;4.如何调用ProxyManager呢，有必要实现一个抽象类AspectProxy implements Proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="============搭建代理框架============&#10;1.添加一个Proxy的接口&#10;2.链式代理ProxyChain，添加cglib的maven依赖&#10;3.ProxyManager，提供创建代理对象的方法&#10;4.如何调用ProxyManager呢，有必要实现一个抽象类AspectProxy implements Proxy" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter3/pom.xml">
@@ -562,8 +604,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/framework/proxy/AspectProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="168">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-framework/src/main/java/org/smart4j/chapter4/aspect/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
