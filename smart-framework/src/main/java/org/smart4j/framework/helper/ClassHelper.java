@@ -4,8 +4,6 @@ import java.lang.annotation.Annotation;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.ppdtbb.proxy.Proxy;
-
 public final class ClassHelper {
 	
 	private static Set<Class<?>> CLASS_SET = new HashSet<Class<?>>();
